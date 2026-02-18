@@ -1,0 +1,98 @@
+{
+    "train": {
+        "hinglish": {
+            "num_sentences": 9616,
+            "total_words": 127757,
+            "word_mean": 13.285877703826955,
+            "word_std": 6.986431482065509,
+            "word_min": 1,
+            "word_max": 40,
+            "char_mean": 76.73429700499167,
+            "char_std": 37.091025730923384
+        },
+        "english": {
+            "num_sentences": 9616,
+            "total_words": 118427,
+            "word_mean": 12.31561980033278,
+            "word_std": 6.7006895327905776,
+            "word_min": 1,
+            "word_max": 40,
+            "char_mean": 74.07269134775375,
+            "char_std": 38.353531311399266
+        },
+        "hinglish_dev": {
+            "num_sentences": 9616,
+            "total_words": 127757,
+            "word_mean": 13.285877703826955,
+            "word_std": 6.986431482065509,
+            "word_min": 1,
+            "word_max": 40,
+            "char_mean": 72.31665973377704,
+            "char_std": 39.268274425589674
+        }
+    },
+    "validation": {
+        "hinglish": {
+            "num_sentences": 1374,
+            "total_words": 18554,
+            "word_mean": 13.503639010189229,
+            "word_std": 6.968084959974609,
+            "word_min": 1,
+            "word_max": 37,
+            "char_mean": 76.75254730713246,
+            "char_std": 36.15811011766573
+        },
+        "english": {
+            "num_sentences": 1374,
+            "total_words": 17135,
+            "word_mean": 12.470887918486172,
+            "word_std": 6.714837007581337,
+            "word_min": 1,
+            "word_max": 42,
+            "char_mean": 74.07933042212518,
+            "char_std": 38.349711895435064
+        },
+        "hinglish_dev": {
+            "num_sentences": 1374,
+            "total_words": 18554,
+            "word_mean": 13.503639010189229,
+            "word_std": 6.968084959974609,
+            "word_min": 1,
+            "word_max": 37,
+            "char_mean": 72.20815138282387,
+            "char_std": 37.0358658999376
+        }
+    },
+    "test": {
+        "hinglish": {
+            "num_sentences": 2748,
+            "total_words": 36152,
+            "word_mean": 13.155749636098982,
+            "word_std": 7.0016461766726685,
+            "word_min": 2,
+            "word_max": 40,
+            "char_mean": 75.95633187772926,
+            "char_std": 37.01617904178478
+        },
+        "english": {
+            "num_sentences": 2748,
+            "total_words": 33543,
+            "word_mean": 12.206331877729257,
+            "word_std": 6.771913317527376,
+            "word_min": 1,
+            "word_max": 46,
+            "char_mean": 73.59679767103349,
+            "char_std": 38.982095934258936
+        },
+        "hinglish_dev": {
+            "num_sentences": 2748,
+            "total_words": 36152,
+            "word_mean": 13.155749636098982,
+            "word_std": 7.0016461766726685,
+            "word_min": 2,
+            "word_max": 40,
+            "char_mean": 71.97525473071325,
+            "char_std": 40.43642159198929
+        }
+    }
+}

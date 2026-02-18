@@ -1,0 +1,38 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "lince_benchmark_mt_enghinglish_test",
+  "dataset_size": 61556,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Huggmachas/Lince_benchmark_mt_enghinglish_test@8b8e1ef72864841cabc5a0ed9fc0ed4b34691a8f/data/test-00000-of-00001.parquet": {
+      "num_bytes": 36288,
+      "checksum": null
+    }
+  },
+  "download_size": 36288,
+  "features": {
+    "english": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 97844,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 61556,
+      "num_examples": 960,
+      "dataset_name": "lince_benchmark_mt_enghinglish_test"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

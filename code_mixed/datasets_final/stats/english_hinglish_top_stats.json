@@ -1,0 +1,68 @@
+{
+    "train": {
+        "english": {
+            "num_sentences": 176596,
+            "total_words": 1368372,
+            "word_mean": 7.7486013273233825,
+            "word_std": 3.493878916435785,
+            "word_min": 1,
+            "word_max": 51,
+            "char_mean": 38.86515549616073,
+            "char_std": 16.81576490064636
+        },
+        "hinglish": {
+            "num_sentences": 176596,
+            "total_words": 1517052,
+            "word_mean": 8.59052300165349,
+            "word_std": 3.7034607501150285,
+            "word_min": 1,
+            "word_max": 214,
+            "char_mean": 44.29638836666742,
+            "char_std": 19.07411856433234
+        }
+    },
+    "val": {
+        "english": {
+            "num_sentences": 1390,
+            "total_words": 10064,
+            "word_mean": 7.240287769784173,
+            "word_std": 3.6750905519008055,
+            "word_min": 1,
+            "word_max": 28,
+            "char_mean": 36.26474820143885,
+            "char_std": 17.961681288809523
+        },
+        "hinglish": {
+            "num_sentences": 1390,
+            "total_words": 11422,
+            "word_mean": 8.21726618705036,
+            "word_std": 3.9807437224494513,
+            "word_min": 2,
+            "word_max": 26,
+            "char_mean": 42.18561151079137,
+            "char_std": 20.50787026026023
+        }
+    },
+    "test": {
+        "english": {
+            "num_sentences": 6513,
+            "total_words": 49511,
+            "word_mean": 7.601873176723476,
+            "word_std": 3.540788130425304,
+            "word_min": 1,
+            "word_max": 29,
+            "char_mean": 38.04467987102718,
+            "char_std": 17.183692481413818
+        },
+        "hinglish": {
+            "num_sentences": 6513,
+            "total_words": 56060,
+            "word_mean": 8.607400583448488,
+            "word_std": 3.9217183228005807,
+            "word_min": 1,
+            "word_max": 30,
+            "char_mean": 44.25748502994012,
+            "char_std": 20.12763357397007
+        }
+    }
+}

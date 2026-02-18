@@ -1,0 +1,98 @@
+{
+    "train": {
+        "idx": {
+            "num_sentences": 0,
+            "total_words": 0,
+            "word_mean": 0.0,
+            "word_std": 0.0,
+            "word_min": 0,
+            "word_max": 0,
+            "char_mean": 0.0,
+            "char_std": 0.0
+        },
+        "english": {
+            "num_sentences": 7087994,
+            "total_words": 116415974,
+            "word_mean": 16.424389467598306,
+            "word_std": 14.083972742905402,
+            "word_min": 1,
+            "word_max": 16292,
+            "char_mean": 97.86722703207705,
+            "char_std": 85.08652980656458
+        },
+        "hindi": {
+            "num_sentences": 7087994,
+            "total_words": 128782369,
+            "word_mean": 18.169085498661538,
+            "word_std": 14.188215001978435,
+            "word_min": 1,
+            "word_max": 7545,
+            "char_mean": 93.89072253729334,
+            "char_std": 75.6924351805218
+        }
+    },
+    "validation": {
+        "idx": {
+            "num_sentences": 0,
+            "total_words": 0,
+            "word_mean": 0.0,
+            "word_std": 0.0,
+            "word_min": 0,
+            "word_max": 0,
+            "char_mean": 0.0,
+            "char_std": 0.0
+        },
+        "english": {
+            "num_sentences": 1012570,
+            "total_words": 16609389,
+            "word_mean": 16.40320076636677,
+            "word_std": 13.184717530065878,
+            "word_min": 1,
+            "word_max": 3097,
+            "char_mean": 97.75693433540397,
+            "char_std": 85.11036608450544
+        },
+        "hindi": {
+            "num_sentences": 1012570,
+            "total_words": 18383807,
+            "word_mean": 18.155591218384902,
+            "word_std": 14.082028291893506,
+            "word_min": 1,
+            "word_max": 2219,
+            "char_mean": 93.819190771996,
+            "char_std": 76.6394997546777
+        }
+    },
+    "test": {
+        "idx": {
+            "num_sentences": 0,
+            "total_words": 0,
+            "word_mean": 0.0,
+            "word_std": 0.0,
+            "word_min": 0,
+            "word_max": 0,
+            "char_mean": 0.0,
+            "char_std": 0.0
+        },
+        "english": {
+            "num_sentences": 2025142,
+            "total_words": 33238129,
+            "word_mean": 16.412739946137112,
+            "word_std": 12.698606111395332,
+            "word_min": 1,
+            "word_max": 2727,
+            "char_mean": 97.79768677949497,
+            "char_std": 78.94841012085305
+        },
+        "hindi": {
+            "num_sentences": 2025142,
+            "total_words": 36761061,
+            "word_mean": 18.152337465718453,
+            "word_std": 13.690837339474493,
+            "word_min": 1,
+            "word_max": 1064,
+            "char_mean": 93.81478879011941,
+            "char_std": 73.7022462668146
+        }
+    }
+}

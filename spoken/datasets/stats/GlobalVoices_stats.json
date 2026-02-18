@@ -1,0 +1,68 @@
+{
+    "train": {
+        "english": {
+            "num_sentences": 1843,
+            "total_words": 30910,
+            "word_mean": 16.771568095496473,
+            "word_std": 12.447629417532712,
+            "word_min": 0,
+            "word_max": 87,
+            "char_mean": 99.10417797069995,
+            "char_std": 74.49240784684167
+        },
+        "hindi": {
+            "num_sentences": 1843,
+            "total_words": 32485,
+            "word_mean": 17.626153011394464,
+            "word_std": 13.236637923530223,
+            "word_min": 0,
+            "word_max": 84,
+            "char_mean": 90.3543136190993,
+            "char_std": 67.57394869447229
+        }
+    },
+    "validation": {
+        "english": {
+            "num_sentences": 263,
+            "total_words": 4572,
+            "word_mean": 17.38403041825095,
+            "word_std": 13.267102876540806,
+            "word_min": 0,
+            "word_max": 74,
+            "char_mean": 101.30418250950571,
+            "char_std": 77.30281342548412
+        },
+        "hindi": {
+            "num_sentences": 263,
+            "total_words": 4953,
+            "word_mean": 18.832699619771862,
+            "word_std": 15.268526586376867,
+            "word_min": 0,
+            "word_max": 85,
+            "char_mean": 95.67680608365019,
+            "char_std": 76.67757611435225
+        }
+    },
+    "test": {
+        "english": {
+            "num_sentences": 528,
+            "total_words": 8955,
+            "word_mean": 16.960227272727273,
+            "word_std": 12.290530104571463,
+            "word_min": 0,
+            "word_max": 90,
+            "char_mean": 100.14393939393939,
+            "char_std": 73.93028888611356
+        },
+        "hindi": {
+            "num_sentences": 528,
+            "total_words": 9716,
+            "word_mean": 18.401515151515152,
+            "word_std": 13.444955034738273,
+            "word_min": 0,
+            "word_max": 74,
+            "char_mean": 93.77462121212122,
+            "char_std": 68.8690316657915
+        }
+    }
+}

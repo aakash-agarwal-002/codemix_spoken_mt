@@ -1,0 +1,46 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "phinc",
+  "dataset_size": 2187352,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/LingoIITGN/PHINC@44b5471df75e508b9d6fcdbcc93df04bb1e84056/PHINC.csv": {
+      "num_bytes": 2125039,
+      "checksum": null
+    }
+  },
+  "download_size": 2125039,
+  "features": {
+    "hinglish": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "english": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hinglish_dev": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4312391,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2187352,
+      "num_examples": 13738,
+      "dataset_name": "phinc"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

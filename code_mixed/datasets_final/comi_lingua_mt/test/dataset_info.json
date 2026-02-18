@@ -1,0 +1,52 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "MT",
+  "dataset_name": "comi-lingua",
+  "dataset_size": 59804046,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/LingoIITGN/COMI-LINGUA@a6b719588f14b3e29f4e0c93e7201a5d55199779/MT_train.csv": {
+      "num_bytes": 47510367,
+      "checksum": null
+    },
+    "hf://datasets/LingoIITGN/COMI-LINGUA@a6b719588f14b3e29f4e0c93e7201a5d55199779/MT_test.csv": {
+      "num_bytes": 11592610,
+      "checksum": null
+    }
+  },
+  "download_size": 59102977,
+  "features": {
+    "english": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hinglish": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 118907023,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 48067332,
+      "num_examples": 19558,
+      "dataset_name": "comi-lingua"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 11736714,
+      "num_examples": 5000,
+      "dataset_name": "comi-lingua"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

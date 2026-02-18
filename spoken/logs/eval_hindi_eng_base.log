@@ -1,0 +1,568 @@
+English → Hinglish evaluation complete.
+Log saved to eval_hindi_eng_base.log
+dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-02-17 20:45:16.657902: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-02-17 20:45:17.090186: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-02-17 20:45:17.978270: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-02-17 20:45:25.739337: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Running on: cuda
+Loaded existing dataset.
+Using base model only...
+Generating predictions...
+
+Translating:   0%|          | 0/199 [00:00<?, ?batch/s]
+Translating:   1%|          | 1/199 [00:04<13:42,  4.16s/batch]
+Translating:   1%|          | 2/199 [00:05<07:57,  2.42s/batch]
+Translating:   2%|▏         | 3/199 [00:07<07:15,  2.22s/batch]
+Translating:   2%|▏         | 4/199 [00:09<06:53,  2.12s/batch]
+Translating:   3%|▎         | 5/199 [00:10<05:54,  1.83s/batch]
+Translating:   3%|▎         | 6/199 [00:12<05:32,  1.72s/batch]
+Translating:   4%|▎         | 7/199 [00:14<05:46,  1.81s/batch]
+Translating:   4%|▍         | 8/199 [00:16<05:59,  1.88s/batch]
+Translating:   5%|▍         | 9/199 [00:17<05:34,  1.76s/batch]
+Translating:   5%|▌         | 10/199 [00:19<05:46,  1.83s/batch]
+Translating:   6%|▌         | 11/199 [00:21<05:35,  1.78s/batch]
+Translating:   6%|▌         | 12/199 [00:25<08:12,  2.63s/batch]
+Translating:   7%|▋         | 13/199 [00:28<07:50,  2.53s/batch]
+Translating:   7%|▋         | 14/199 [00:30<07:20,  2.38s/batch]
+Translating:   8%|▊         | 15/199 [00:33<08:25,  2.75s/batch]
+Translating:   8%|▊         | 16/199 [00:35<07:40,  2.51s/batch]
+Translating:   9%|▊         | 17/199 [00:37<06:35,  2.17s/batch]
+Translating:   9%|▉         | 18/199 [00:38<06:07,  2.03s/batch]
+Translating:  10%|▉         | 19/199 [00:40<05:52,  1.96s/batch]
+Translating:  10%|█         | 20/199 [00:42<05:42,  1.91s/batch]
+Translating:  11%|█         | 21/199 [00:44<05:40,  1.91s/batch]
+Translating:  11%|█         | 22/199 [00:45<05:18,  1.80s/batch]
+Translating:  12%|█▏        | 23/199 [00:48<06:14,  2.13s/batch]
+Translating:  12%|█▏        | 24/199 [00:51<07:02,  2.42s/batch]
+Translating:  13%|█▎        | 25/199 [00:53<06:09,  2.12s/batch]
+Translating:  13%|█▎        | 26/199 [00:55<05:53,  2.04s/batch]
+Translating:  14%|█▎        | 27/199 [00:57<05:53,  2.05s/batch]
+Translating:  14%|█▍        | 28/199 [00:58<05:18,  1.86s/batch]
+Translating:  15%|█▍        | 29/199 [01:00<05:00,  1.77s/batch]
+Translating:  15%|█▌        | 30/199 [01:01<04:33,  1.62s/batch]
+Translating:  16%|█▌        | 31/199 [01:04<05:39,  2.02s/batch]
+Translating:  16%|█▌        | 32/199 [01:17<14:52,  5.35s/batch]
+Translating:  17%|█▋        | 33/199 [01:18<11:18,  4.08s/batch]
+Translating:  17%|█▋        | 34/199 [01:20<09:08,  3.33s/batch]
+Translating:  18%|█▊        | 35/199 [01:21<07:32,  2.76s/batch]
+Translating:  18%|█▊        | 36/199 [01:23<06:33,  2.42s/batch]
+Translating:  19%|█▊        | 37/199 [01:25<06:01,  2.23s/batch]
+Translating:  19%|█▉        | 38/199 [01:27<05:54,  2.20s/batch]
+Translating:  20%|█▉        | 39/199 [01:29<05:49,  2.18s/batch]
+Translating:  20%|██        | 40/199 [01:31<05:38,  2.13s/batch]
+Translating:  21%|██        | 41/199 [01:33<05:31,  2.10s/batch]
+Translating:  21%|██        | 42/199 [01:38<07:47,  2.98s/batch]
+Translating:  22%|██▏       | 43/199 [01:40<06:58,  2.68s/batch]
+Translating:  22%|██▏       | 44/199 [01:42<06:16,  2.43s/batch]
+Translating:  23%|██▎       | 45/199 [01:43<05:24,  2.11s/batch]
+Translating:  23%|██▎       | 46/199 [01:46<05:41,  2.23s/batch]
+Translating:  24%|██▎       | 47/199 [01:48<05:27,  2.16s/batch]
+Translating:  24%|██▍       | 48/199 [01:50<05:15,  2.09s/batch]
+Translating:  25%|██▍       | 49/199 [01:52<05:30,  2.20s/batch]
+Translating:  25%|██▌       | 50/199 [01:54<05:17,  2.13s/batch]
+Translating:  26%|██▌       | 51/199 [01:55<04:43,  1.92s/batch]
+Translating:  26%|██▌       | 52/199 [01:58<05:05,  2.08s/batch]
+Translating:  27%|██▋       | 53/199 [02:00<05:07,  2.10s/batch]
+Translating:  27%|██▋       | 54/199 [02:04<06:40,  2.76s/batch]
+Translating:  28%|██▊       | 55/199 [02:06<05:52,  2.44s/batch]
+Translating:  28%|██▊       | 56/199 [02:08<05:21,  2.25s/batch]
+Translating:  29%|██▊       | 57/199 [02:12<06:32,  2.76s/batch]
+Translating:  29%|██▉       | 58/199 [02:14<05:45,  2.45s/batch]
+Translating:  30%|██▉       | 59/199 [02:17<06:26,  2.76s/batch]
+Translating:  30%|███       | 60/199 [02:19<05:43,  2.47s/batch]
+Translating:  31%|███       | 61/199 [02:20<05:07,  2.23s/batch]
+Translating:  31%|███       | 62/199 [02:22<04:42,  2.06s/batch]
+Translating:  32%|███▏      | 63/199 [02:25<04:54,  2.17s/batch]
+Translating:  32%|███▏      | 64/199 [02:27<04:50,  2.15s/batch]
+Translating:  33%|███▎      | 65/199 [02:28<04:16,  1.92s/batch]
+Translating:  33%|███▎      | 66/199 [02:29<03:49,  1.73s/batch]
+Translating:  34%|███▎      | 67/199 [02:32<04:30,  2.05s/batch]
+Translating:  34%|███▍      | 68/199 [02:33<03:55,  1.80s/batch]
+Translating:  35%|███▍      | 69/199 [02:35<04:02,  1.87s/batch]
+Translating:  35%|███▌      | 70/199 [02:38<04:27,  2.07s/batch]
+Translating:  36%|███▌      | 71/199 [02:40<04:32,  2.13s/batch]
+Translating:  36%|███▌      | 72/199 [02:42<04:06,  1.94s/batch]
+Translating:  37%|███▋      | 73/199 [02:43<03:40,  1.75s/batch]
+Translating:  37%|███▋      | 74/199 [02:46<04:09,  2.00s/batch]
+Translating:  38%|███▊      | 75/199 [02:48<04:15,  2.06s/batch]
+Translating:  38%|███▊      | 76/199 [02:49<03:48,  1.85s/batch]
+Translating:  39%|███▊      | 77/199 [02:52<04:27,  2.19s/batch]
+Translating:  39%|███▉      | 78/199 [02:54<04:00,  1.99s/batch]
+Translating:  40%|███▉      | 79/199 [02:56<04:01,  2.01s/batch]
+Translating:  40%|████      | 80/199 [02:58<03:55,  1.98s/batch]
+Translating:  41%|████      | 81/199 [03:00<04:00,  2.04s/batch]
+Translating:  41%|████      | 82/199 [03:01<03:40,  1.88s/batch]
+Translating:  42%|████▏     | 83/199 [03:04<04:22,  2.27s/batch]
+Translating:  42%|████▏     | 84/199 [03:07<04:13,  2.21s/batch]
+Translating:  43%|████▎     | 85/199 [03:09<04:10,  2.20s/batch]
+Translating:  43%|████▎     | 86/199 [03:11<03:55,  2.08s/batch]
+Translating:  44%|████▎     | 87/199 [03:12<03:36,  1.93s/batch]
+Translating:  44%|████▍     | 88/199 [03:14<03:30,  1.89s/batch]
+Translating:  45%|████▍     | 89/199 [03:16<03:23,  1.85s/batch]
+Translating:  45%|████▌     | 90/199 [03:17<03:15,  1.79s/batch]
+Translating:  46%|████▌     | 91/199 [03:19<03:22,  1.88s/batch]
+Translating:  46%|████▌     | 92/199 [03:21<03:13,  1.81s/batch]
+Translating:  47%|████▋     | 93/199 [03:24<03:40,  2.08s/batch]
+Translating:  47%|████▋     | 94/199 [03:28<04:43,  2.70s/batch]
+Translating:  48%|████▊     | 95/199 [03:30<04:10,  2.41s/batch]
+Translating:  48%|████▊     | 96/199 [03:31<03:35,  2.09s/batch]
+Translating:  49%|████▊     | 97/199 [03:33<03:38,  2.14s/batch]
+Translating:  49%|████▉     | 98/199 [03:35<03:31,  2.09s/batch]
+Translating:  50%|████▉     | 99/199 [03:36<03:04,  1.84s/batch]
+Translating:  50%|█████     | 100/199 [03:38<02:59,  1.82s/batch]
+Translating:  51%|█████     | 101/199 [03:40<02:48,  1.72s/batch]
+Translating:  51%|█████▏    | 102/199 [03:41<02:37,  1.62s/batch]
+Translating:  52%|█████▏    | 103/199 [03:43<02:33,  1.59s/batch]
+Translating:  52%|█████▏    | 104/199 [03:44<02:24,  1.52s/batch]
+Translating:  53%|█████▎    | 105/199 [03:46<02:35,  1.65s/batch]
+Translating:  53%|█████▎    | 106/199 [03:49<02:59,  1.93s/batch]
+Translating:  54%|█████▍    | 107/199 [03:50<02:50,  1.85s/batch]
+Translating:  54%|█████▍    | 108/199 [03:51<02:33,  1.68s/batch]
+Translating:  55%|█████▍    | 109/199 [03:53<02:20,  1.57s/batch]
+Translating:  55%|█████▌    | 110/199 [03:58<03:54,  2.63s/batch]
+Translating:  56%|█████▌    | 111/199 [03:59<03:21,  2.28s/batch]
+Translating:  56%|█████▋    | 112/199 [04:01<03:06,  2.15s/batch]
+Translating:  57%|█████▋    | 113/199 [04:04<03:17,  2.29s/batch]
+Translating:  57%|█████▋    | 114/199 [04:05<02:57,  2.08s/batch]
+Translating:  58%|█████▊    | 115/199 [04:09<03:20,  2.39s/batch]
+Translating:  58%|█████▊    | 116/199 [04:12<03:42,  2.68s/batch]
+Translating:  59%|█████▉    | 117/199 [04:14<03:22,  2.47s/batch]
+Translating:  59%|█████▉    | 118/199 [04:16<03:06,  2.30s/batch]
+Translating:  60%|█████▉    | 119/199 [04:17<02:37,  1.97s/batch]
+Translating:  60%|██████    | 120/199 [04:19<02:25,  1.85s/batch]
+Translating:  61%|██████    | 121/199 [04:20<02:23,  1.84s/batch]
+Translating:  61%|██████▏   | 122/199 [04:22<02:25,  1.89s/batch]
+Translating:  62%|██████▏   | 123/199 [04:25<02:40,  2.12s/batch]
+Translating:  62%|██████▏   | 124/199 [04:27<02:35,  2.08s/batch]
+Translating:  63%|██████▎   | 125/199 [04:28<02:17,  1.85s/batch]
+Translating:  63%|██████▎   | 126/199 [04:30<02:06,  1.73s/batch]
+Translating:  64%|██████▍   | 127/199 [04:31<01:56,  1.62s/batch]
+Translating:  64%|██████▍   | 128/199 [04:33<01:51,  1.58s/batch]
+Translating:  65%|██████▍   | 129/199 [04:34<01:52,  1.61s/batch]
+Translating:  65%|██████▌   | 130/199 [04:36<01:49,  1.58s/batch]
+Translating:  66%|██████▌   | 131/199 [04:38<02:04,  1.84s/batch]
+Translating:  66%|██████▋   | 132/199 [04:40<02:04,  1.86s/batch]
+Translating:  67%|██████▋   | 133/199 [04:43<02:24,  2.19s/batch]
+Translating:  67%|██████▋   | 134/199 [04:45<02:09,  1.99s/batch]
+Translating:  68%|██████▊   | 135/199 [04:46<02:00,  1.88s/batch]
+Translating:  68%|██████▊   | 136/199 [04:48<01:52,  1.78s/batch]
+Translating:  69%|██████▉   | 137/199 [04:55<03:26,  3.33s/batch]
+Translating:  69%|██████▉   | 138/199 [04:56<02:46,  2.74s/batch]
+Translating:  70%|██████▉   | 139/199 [04:58<02:23,  2.39s/batch]
+Translating:  70%|███████   | 140/199 [04:59<02:03,  2.10s/batch]
+Translating:  71%|███████   | 141/199 [05:01<02:06,  2.17s/batch]
+Translating:  71%|███████▏  | 142/199 [05:03<01:59,  2.10s/batch]
+Translating:  72%|███████▏  | 143/199 [05:06<02:00,  2.15s/batch]
+Translating:  72%|███████▏  | 144/199 [05:08<01:58,  2.16s/batch]
+Translating:  73%|███████▎  | 145/199 [05:09<01:41,  1.88s/batch]
+Translating:  73%|███████▎  | 146/199 [05:11<01:36,  1.82s/batch]
+Translating:  74%|███████▍  | 147/199 [05:13<01:42,  1.97s/batch]
+Translating:  74%|███████▍  | 148/199 [05:15<01:39,  1.95s/batch]
+Translating:  75%|███████▍  | 149/199 [05:17<01:35,  1.91s/batch]
+Translating:  75%|███████▌  | 150/199 [05:20<01:45,  2.16s/batch]
+Translating:  76%|███████▌  | 151/199 [05:23<01:58,  2.48s/batch]
+Translating:  76%|███████▋  | 152/199 [05:24<01:45,  2.24s/batch]
+Translating:  77%|███████▋  | 153/199 [05:26<01:32,  2.01s/batch]
+Translating:  77%|███████▋  | 154/199 [05:27<01:21,  1.82s/batch]
+Translating:  78%|███████▊  | 155/199 [05:29<01:18,  1.79s/batch]
+Translating:  78%|███████▊  | 156/199 [05:30<01:09,  1.62s/batch]
+Translating:  79%|███████▉  | 157/199 [05:32<01:16,  1.82s/batch]
+Translating:  79%|███████▉  | 158/199 [05:34<01:11,  1.74s/batch]
+Translating:  80%|███████▉  | 159/199 [05:36<01:15,  1.88s/batch]
+Translating:  80%|████████  | 160/199 [05:38<01:08,  1.75s/batch]
+Translating:  81%|████████  | 161/199 [05:39<01:04,  1.70s/batch]
+Translating:  81%|████████▏ | 162/199 [05:42<01:11,  1.93s/batch]
+Translating:  82%|████████▏ | 163/199 [05:44<01:08,  1.90s/batch]
+Translating:  82%|████████▏ | 164/199 [05:45<01:04,  1.85s/batch]
+Translating:  83%|████████▎ | 165/199 [05:48<01:09,  2.03s/batch]
+Translating:  83%|████████▎ | 166/199 [05:50<01:05,  2.00s/batch]
+Translating:  84%|████████▍ | 167/199 [05:51<00:59,  1.86s/batch]
+Translating:  84%|████████▍ | 168/199 [05:54<01:02,  2.01s/batch]
+Translating:  85%|████████▍ | 169/199 [05:56<01:02,  2.08s/batch]
+Translating:  85%|████████▌ | 170/199 [05:58<00:58,  2.02s/batch]
+Translating:  86%|████████▌ | 171/199 [06:00<00:54,  1.95s/batch]
+Translating:  86%|████████▋ | 172/199 [06:01<00:50,  1.89s/batch]
+Translating:  87%|████████▋ | 173/199 [06:03<00:47,  1.82s/batch]
+Translating:  87%|████████▋ | 174/199 [06:05<00:48,  1.94s/batch]
+Translating:  88%|████████▊ | 175/199 [06:09<01:00,  2.53s/batch]
+Translating:  88%|████████▊ | 176/199 [06:11<00:56,  2.48s/batch]
+Translating:  89%|████████▉ | 177/199 [06:13<00:51,  2.35s/batch]
+Translating:  89%|████████▉ | 178/199 [06:16<00:53,  2.54s/batch]
+Translating:  90%|████████▉ | 179/199 [06:18<00:43,  2.20s/batch]
+Translating:  90%|█████████ | 180/199 [06:19<00:38,  2.04s/batch]
+Translating:  91%|█████████ | 181/199 [06:21<00:34,  1.93s/batch]
+Translating:  91%|█████████▏| 182/199 [06:24<00:38,  2.27s/batch]
+Translating:  92%|█████████▏| 183/199 [06:26<00:35,  2.19s/batch]
+Translating:  92%|█████████▏| 184/199 [06:29<00:35,  2.38s/batch]
+Translating:  93%|█████████▎| 185/199 [06:31<00:29,  2.12s/batch]
+Translating:  93%|█████████▎| 186/199 [06:32<00:26,  2.05s/batch]
+Translating:  94%|█████████▍| 187/199 [06:36<00:28,  2.38s/batch]
+Translating:  94%|█████████▍| 188/199 [06:37<00:23,  2.13s/batch]
+Translating:  95%|█████████▍| 189/199 [06:39<00:20,  2.03s/batch]
+Translating:  95%|█████████▌| 190/199 [06:41<00:17,  1.98s/batch]
+Translating:  96%|█████████▌| 191/199 [06:44<00:18,  2.27s/batch]
+Translating:  96%|█████████▋| 192/199 [06:46<00:14,  2.14s/batch]
+Translating:  97%|█████████▋| 193/199 [06:47<00:11,  1.89s/batch]
+Translating:  97%|█████████▋| 194/199 [06:49<00:09,  1.91s/batch]
+Translating:  98%|█████████▊| 195/199 [06:50<00:07,  1.79s/batch]
+Translating:  98%|█████████▊| 196/199 [06:52<00:05,  1.67s/batch]
+Translating:  99%|█████████▉| 197/199 [06:53<00:03,  1.60s/batch]
+Translating:  99%|█████████▉| 198/199 [06:55<00:01,  1.54s/batch]
+Translating: 100%|██████████| 199/199 [06:56<00:00,  1.42s/batch]
+Translating: 100%|██████████| 199/199 [06:56<00:00,  2.09s/batch]
+Using the latest cached version of the module from /home/cfiltlab/aakash.agarwal/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--bleu/9e0985c1200e367cce45605ce0ecb5ede079894e0f24f54613fca08eeb8aff76 (last modified on Tue Feb 17 01:02:42 2026) since it couldn't be found locally at evaluate-metric--bleu, or remotely on the Hugging Face Hub.
+Using the latest cached version of the module from /home/cfiltlab/aakash.agarwal/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--chrf/d244bab9383988714085a8dacc4871986d9f025398581c33d6b2ee22836b4069 (last modified on Tue Feb 17 01:02:42 2026) since it couldn't be found locally at evaluate-metric--chrf, or remotely on the Hugging Face Hub.
+Using the latest cached version of the module from /home/cfiltlab/aakash.agarwal/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--bertscore/cf4907b18f8f741f202232c0f8009a3bd49ff98802c245abcb6ea51a37a8c05b (last modified on Tue Feb 17 01:02:42 2026) since it couldn't be found locally at evaluate-metric--bertscore, or remotely on the Hugging Face Hub.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Warning: Empty candidate sentence detected; setting raw BERTscores to 0.
+Warning: Empty reference sentence detected; setting raw BERTScores to 0.
+Lightning automatically upgraded your loaded checkpoint from v1.8.3.post1 to v2.4.0. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint ../../../.cache/huggingface/hub/models--Unbabel--wmt22-comet-da/snapshots/2760a223ac957f30acfb18c8aa649b01cf1d75f2/checkpoints/model.ckpt`
+Encoder model frozen.
+/home/cfiltlab/aakash.agarwal/miniconda3/envs/itv2/lib/python3.10/site-packages/pytorch_lightning/core/saving.py:195: Found keys that are not in the model state dict but in the checkpoint: ['encoder.model.embeddings.position_ids']
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+You are using a CUDA device ('NVIDIA A40') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+SLURM auto-requeueing enabled. Setting signal handlers.
+Saved predictions to: ../outputs_clean/hindi_to_en_results_base.csv
+
+Predicting: 0it [00:00, ?it/s]
+Predicting:   0%|          | 0/199 [00:00<?, ?it/s]
+Predicting DataLoader 0:   0%|          | 0/199 [00:00<?, ?it/s]
+Predicting DataLoader 0:   1%|          | 1/199 [00:00<00:13, 15.20it/s]
+Predicting DataLoader 0:   1%|          | 2/199 [00:00<00:11, 17.80it/s]
+Predicting DataLoader 0:   2%|▏         | 3/199 [00:00<00:11, 17.21it/s]
+Predicting DataLoader 0:   2%|▏         | 4/199 [00:00<00:12, 16.15it/s]
+Predicting DataLoader 0:   3%|▎         | 5/199 [00:00<00:12, 15.26it/s]
+Predicting DataLoader 0:   3%|▎         | 6/199 [00:00<00:12, 14.94it/s]
+Predicting DataLoader 0:   4%|▎         | 7/199 [00:00<00:13, 14.35it/s]
+Predicting DataLoader 0:   4%|▍         | 8/199 [00:00<00:14, 13.42it/s]
+Predicting DataLoader 0:   5%|▍         | 9/199 [00:00<00:14, 13.02it/s]
+Predicting DataLoader 0:   5%|▌         | 10/199 [00:00<00:14, 12.70it/s]
+Predicting DataLoader 0:   6%|▌         | 11/199 [00:00<00:15, 12.48it/s]
+Predicting DataLoader 0:   6%|▌         | 12/199 [00:00<00:15, 12.23it/s]
+Predicting DataLoader 0:   7%|▋         | 13/199 [00:01<00:15, 12.04it/s]
+Predicting DataLoader 0:   7%|▋         | 14/199 [00:01<00:15, 11.86it/s]
+Predicting DataLoader 0:   8%|▊         | 15/199 [00:01<00:15, 11.65it/s]
+Predicting DataLoader 0:   8%|▊         | 16/199 [00:01<00:15, 11.45it/s]
+Predicting DataLoader 0:   9%|▊         | 17/199 [00:01<00:16, 11.34it/s]
+Predicting DataLoader 0:   9%|▉         | 18/199 [00:01<00:16, 11.24it/s]
+Predicting DataLoader 0:  10%|▉         | 19/199 [00:01<00:16, 11.02it/s]
+Predicting DataLoader 0:  10%|█         | 20/199 [00:01<00:16, 10.90it/s]
+Predicting DataLoader 0:  11%|█         | 21/199 [00:01<00:16, 10.70it/s]
+Predicting DataLoader 0:  11%|█         | 22/199 [00:02<00:16, 10.49it/s]
+Predicting DataLoader 0:  12%|█▏        | 23/199 [00:02<00:16, 10.40it/s]
+Predicting DataLoader 0:  12%|█▏        | 24/199 [00:02<00:17, 10.29it/s]
+Predicting DataLoader 0:  13%|█▎        | 25/199 [00:02<00:17, 10.20it/s]
+Predicting DataLoader 0:  13%|█▎        | 26/199 [00:02<00:17, 10.08it/s]
+Predicting DataLoader 0:  14%|█▎        | 27/199 [00:02<00:17, 10.03it/s]
+Predicting DataLoader 0:  14%|█▍        | 28/199 [00:02<00:17,  9.96it/s]
+Predicting DataLoader 0:  15%|█▍        | 29/199 [00:02<00:17,  9.83it/s]
+Predicting DataLoader 0:  15%|█▌        | 30/199 [00:03<00:17,  9.79it/s]
+Predicting DataLoader 0:  16%|█▌        | 31/199 [00:03<00:17,  9.72it/s]
+Predicting DataLoader 0:  16%|█▌        | 32/199 [00:03<00:17,  9.62it/s]
+Predicting DataLoader 0:  17%|█▋        | 33/199 [00:03<00:17,  9.58it/s]
+Predicting DataLoader 0:  17%|█▋        | 34/199 [00:03<00:17,  9.50it/s]
+Predicting DataLoader 0:  18%|█▊        | 35/199 [00:03<00:17,  9.46it/s]
+Predicting DataLoader 0:  18%|█▊        | 36/199 [00:03<00:17,  9.44it/s]
+Predicting DataLoader 0:  19%|█▊        | 37/199 [00:03<00:17,  9.39it/s]
+Predicting DataLoader 0:  19%|█▉        | 38/199 [00:04<00:17,  9.34it/s]
+Predicting DataLoader 0:  20%|█▉        | 39/199 [00:04<00:17,  9.30it/s]
+Predicting DataLoader 0:  20%|██        | 40/199 [00:04<00:17,  9.27it/s]
+Predicting DataLoader 0:  21%|██        | 41/199 [00:04<00:17,  9.18it/s]
+Predicting DataLoader 0:  21%|██        | 42/199 [00:04<00:17,  9.14it/s]
+Predicting DataLoader 0:  22%|██▏       | 43/199 [00:04<00:17,  9.10it/s]
+Predicting DataLoader 0:  22%|██▏       | 44/199 [00:04<00:17,  9.06it/s]
+Predicting DataLoader 0:  23%|██▎       | 45/199 [00:04<00:17,  9.02it/s]
+Predicting DataLoader 0:  23%|██▎       | 46/199 [00:05<00:17,  8.96it/s]
+Predicting DataLoader 0:  24%|██▎       | 47/199 [00:05<00:17,  8.93it/s]
+Predicting DataLoader 0:  24%|██▍       | 48/199 [00:05<00:16,  8.89it/s]
+Predicting DataLoader 0:  25%|██▍       | 49/199 [00:05<00:16,  8.85it/s]
+Predicting DataLoader 0:  25%|██▌       | 50/199 [00:05<00:16,  8.82it/s]
+Predicting DataLoader 0:  26%|██▌       | 51/199 [00:05<00:16,  8.78it/s]
+Predicting DataLoader 0:  26%|██▌       | 52/199 [00:05<00:16,  8.73it/s]
+Predicting DataLoader 0:  27%|██▋       | 53/199 [00:06<00:16,  8.69it/s]
+Predicting DataLoader 0:  27%|██▋       | 54/199 [00:06<00:16,  8.66it/s]
+Predicting DataLoader 0:  28%|██▊       | 55/199 [00:06<00:16,  8.62it/s]
+Predicting DataLoader 0:  28%|██▊       | 56/199 [00:06<00:16,  8.58it/s]
+Predicting DataLoader 0:  29%|██▊       | 57/199 [00:06<00:16,  8.55it/s]
+Predicting DataLoader 0:  29%|██▉       | 58/199 [00:06<00:16,  8.51it/s]
+Predicting DataLoader 0:  30%|██▉       | 59/199 [00:06<00:16,  8.47it/s]
+Predicting DataLoader 0:  30%|███       | 60/199 [00:07<00:16,  8.43it/s]
+Predicting DataLoader 0:  31%|███       | 61/199 [00:07<00:16,  8.38it/s]
+Predicting DataLoader 0:  31%|███       | 62/199 [00:07<00:16,  8.32it/s]
+Predicting DataLoader 0:  32%|███▏      | 63/199 [00:07<00:16,  8.28it/s]
+Predicting DataLoader 0:  32%|███▏      | 64/199 [00:07<00:16,  8.25it/s]
+Predicting DataLoader 0:  33%|███▎      | 65/199 [00:07<00:16,  8.22it/s]
+Predicting DataLoader 0:  33%|███▎      | 66/199 [00:08<00:16,  8.17it/s]
+Predicting DataLoader 0:  34%|███▎      | 67/199 [00:08<00:16,  8.15it/s]
+Predicting DataLoader 0:  34%|███▍      | 68/199 [00:08<00:16,  8.10it/s]
+Predicting DataLoader 0:  35%|███▍      | 69/199 [00:08<00:16,  8.06it/s]
+Predicting DataLoader 0:  35%|███▌      | 70/199 [00:08<00:16,  8.02it/s]
+Predicting DataLoader 0:  36%|███▌      | 71/199 [00:08<00:16,  7.99it/s]
+Predicting DataLoader 0:  36%|███▌      | 72/199 [00:09<00:15,  7.95it/s]
+Predicting DataLoader 0:  37%|███▋      | 73/199 [00:09<00:15,  7.91it/s]
+Predicting DataLoader 0:  37%|███▋      | 74/199 [00:09<00:15,  7.88it/s]
+Predicting DataLoader 0:  38%|███▊      | 75/199 [00:09<00:15,  7.84it/s]
+Predicting DataLoader 0:  38%|███▊      | 76/199 [00:09<00:15,  7.81it/s]
+Predicting DataLoader 0:  39%|███▊      | 77/199 [00:09<00:15,  7.77it/s]
+Predicting DataLoader 0:  39%|███▉      | 78/199 [00:10<00:15,  7.74it/s]
+Predicting DataLoader 0:  40%|███▉      | 79/199 [00:10<00:15,  7.71it/s]
+Predicting DataLoader 0:  40%|████      | 80/199 [00:10<00:15,  7.68it/s]
+Predicting DataLoader 0:  41%|████      | 81/199 [00:10<00:15,  7.64it/s]
+Predicting DataLoader 0:  41%|████      | 82/199 [00:10<00:15,  7.62it/s]
+Predicting DataLoader 0:  42%|████▏     | 83/199 [00:10<00:15,  7.59it/s]
+Predicting DataLoader 0:  42%|████▏     | 84/199 [00:11<00:15,  7.57it/s]
+Predicting DataLoader 0:  43%|████▎     | 85/199 [00:11<00:15,  7.54it/s]
+Predicting DataLoader 0:  43%|████▎     | 86/199 [00:11<00:15,  7.51it/s]
+Predicting DataLoader 0:  44%|████▎     | 87/199 [00:11<00:14,  7.48it/s]
+Predicting DataLoader 0:  44%|████▍     | 88/199 [00:11<00:14,  7.45it/s]
+Predicting DataLoader 0:  45%|████▍     | 89/199 [00:11<00:14,  7.43it/s]
+Predicting DataLoader 0:  45%|████▌     | 90/199 [00:12<00:14,  7.40it/s]
+Predicting DataLoader 0:  46%|████▌     | 91/199 [00:12<00:14,  7.38it/s]
+Predicting DataLoader 0:  46%|████▌     | 92/199 [00:12<00:14,  7.35it/s]
+Predicting DataLoader 0:  47%|████▋     | 93/199 [00:12<00:14,  7.31it/s]
+Predicting DataLoader 0:  47%|████▋     | 94/199 [00:12<00:14,  7.26it/s]
+Predicting DataLoader 0:  48%|████▊     | 95/199 [00:13<00:14,  7.24it/s]
+Predicting DataLoader 0:  48%|████▊     | 96/199 [00:13<00:14,  7.21it/s]
+Predicting DataLoader 0:  49%|████▊     | 97/199 [00:13<00:14,  7.18it/s]
+Predicting DataLoader 0:  49%|████▉     | 98/199 [00:13<00:14,  7.16it/s]
+Predicting DataLoader 0:  50%|████▉     | 99/199 [00:13<00:14,  7.13it/s]
+Predicting DataLoader 0:  50%|█████     | 100/199 [00:14<00:13,  7.09it/s]
+Predicting DataLoader 0:  51%|█████     | 101/199 [00:14<00:13,  7.07it/s]
+Predicting DataLoader 0:  51%|█████▏    | 102/199 [00:14<00:13,  7.03it/s]
+Predicting DataLoader 0:  52%|█████▏    | 103/199 [00:14<00:13,  7.02it/s]
+Predicting DataLoader 0:  52%|█████▏    | 104/199 [00:14<00:13,  6.99it/s]
+Predicting DataLoader 0:  53%|█████▎    | 105/199 [00:15<00:13,  6.96it/s]
+Predicting DataLoader 0:  53%|█████▎    | 106/199 [00:15<00:13,  6.94it/s]
+Predicting DataLoader 0:  54%|█████▍    | 107/199 [00:15<00:13,  6.84it/s]
+Predicting DataLoader 0:  54%|█████▍    | 108/199 [00:15<00:13,  6.82it/s]
+Predicting DataLoader 0:  55%|█████▍    | 109/199 [00:16<00:13,  6.80it/s]
+Predicting DataLoader 0:  55%|█████▌    | 110/199 [00:16<00:13,  6.77it/s]
+Predicting DataLoader 0:  56%|█████▌    | 111/199 [00:16<00:13,  6.74it/s]
+Predicting DataLoader 0:  56%|█████▋    | 112/199 [00:16<00:12,  6.72it/s]
+Predicting DataLoader 0:  57%|█████▋    | 113/199 [00:16<00:12,  6.69it/s]
+Predicting DataLoader 0:  57%|█████▋    | 114/199 [00:17<00:12,  6.67it/s]
+Predicting DataLoader 0:  58%|█████▊    | 115/199 [00:17<00:12,  6.65it/s]
+Predicting DataLoader 0:  58%|█████▊    | 116/199 [00:17<00:12,  6.62it/s]
+Predicting DataLoader 0:  59%|█████▉    | 117/199 [00:17<00:12,  6.60it/s]
+Predicting DataLoader 0:  59%|█████▉    | 118/199 [00:17<00:12,  6.57it/s]
+Predicting DataLoader 0:  60%|█████▉    | 119/199 [00:18<00:12,  6.55it/s]
+Predicting DataLoader 0:  60%|██████    | 120/199 [00:18<00:12,  6.52it/s]
+Predicting DataLoader 0:  61%|██████    | 121/199 [00:18<00:12,  6.50it/s]
+Predicting DataLoader 0:  61%|██████▏   | 122/199 [00:18<00:11,  6.47it/s]
+Predicting DataLoader 0:  62%|██████▏   | 123/199 [00:19<00:11,  6.45it/s]
+Predicting DataLoader 0:  62%|██████▏   | 124/199 [00:19<00:11,  6.42it/s]
+Predicting DataLoader 0:  63%|██████▎   | 125/199 [00:19<00:11,  6.40it/s]
+Predicting DataLoader 0:  63%|██████▎   | 126/199 [00:19<00:11,  6.38it/s]
+Predicting DataLoader 0:  64%|██████▍   | 127/199 [00:19<00:11,  6.36it/s]
+Predicting DataLoader 0:  64%|██████▍   | 128/199 [00:20<00:11,  6.33it/s]
+Predicting DataLoader 0:  65%|██████▍   | 129/199 [00:20<00:11,  6.31it/s]
+Predicting DataLoader 0:  65%|██████▌   | 130/199 [00:20<00:10,  6.28it/s]
+Predicting DataLoader 0:  66%|██████▌   | 131/199 [00:20<00:10,  6.25it/s]
+Predicting DataLoader 0:  66%|██████▋   | 132/199 [00:21<00:10,  6.23it/s]
+Predicting DataLoader 0:  67%|██████▋   | 133/199 [00:21<00:10,  6.20it/s]
+Predicting DataLoader 0:  67%|██████▋   | 134/199 [00:21<00:10,  6.18it/s]
+Predicting DataLoader 0:  68%|██████▊   | 135/199 [00:21<00:10,  6.15it/s]
+Predicting DataLoader 0:  68%|██████▊   | 136/199 [00:22<00:10,  6.13it/s]
+Predicting DataLoader 0:  69%|██████▉   | 137/199 [00:22<00:10,  6.10it/s]
+Predicting DataLoader 0:  69%|██████▉   | 138/199 [00:22<00:10,  6.08it/s]
+Predicting DataLoader 0:  70%|██████▉   | 139/199 [00:22<00:09,  6.06it/s]
+Predicting DataLoader 0:  70%|███████   | 140/199 [00:23<00:09,  6.03it/s]
+Predicting DataLoader 0:  71%|███████   | 141/199 [00:23<00:09,  6.01it/s]
+Predicting DataLoader 0:  71%|███████▏  | 142/199 [00:23<00:09,  5.98it/s]
+Predicting DataLoader 0:  72%|███████▏  | 143/199 [00:23<00:09,  5.96it/s]
+Predicting DataLoader 0:  72%|███████▏  | 144/199 [00:24<00:09,  5.93it/s]
+Predicting DataLoader 0:  73%|███████▎  | 145/199 [00:24<00:09,  5.92it/s]
+Predicting DataLoader 0:  73%|███████▎  | 146/199 [00:24<00:08,  5.89it/s]
+Predicting DataLoader 0:  74%|███████▍  | 147/199 [00:25<00:08,  5.87it/s]
+Predicting DataLoader 0:  74%|███████▍  | 148/199 [00:25<00:08,  5.85it/s]
+Predicting DataLoader 0:  75%|███████▍  | 149/199 [00:25<00:08,  5.82it/s]
+Predicting DataLoader 0:  75%|███████▌  | 150/199 [00:25<00:08,  5.79it/s]
+Predicting DataLoader 0:  76%|███████▌  | 151/199 [00:26<00:08,  5.77it/s]
+Predicting DataLoader 0:  76%|███████▋  | 152/199 [00:26<00:08,  5.74it/s]
+Predicting DataLoader 0:  77%|███████▋  | 153/199 [00:26<00:08,  5.71it/s]
+Predicting DataLoader 0:  77%|███████▋  | 154/199 [00:27<00:07,  5.69it/s]
+Predicting DataLoader 0:  78%|███████▊  | 155/199 [00:27<00:07,  5.67it/s]
+Predicting DataLoader 0:  78%|███████▊  | 156/199 [00:27<00:07,  5.64it/s]
+Predicting DataLoader 0:  79%|███████▉  | 157/199 [00:27<00:07,  5.62it/s]
+Predicting DataLoader 0:  79%|███████▉  | 158/199 [00:28<00:07,  5.60it/s]
+Predicting DataLoader 0:  80%|███████▉  | 159/199 [00:28<00:07,  5.57it/s]
+Predicting DataLoader 0:  80%|████████  | 160/199 [00:28<00:07,  5.55it/s]
+Predicting DataLoader 0:  81%|████████  | 161/199 [00:29<00:06,  5.53it/s]
+Predicting DataLoader 0:  81%|████████▏ | 162/199 [00:29<00:06,  5.50it/s]
+Predicting DataLoader 0:  82%|████████▏ | 163/199 [00:29<00:06,  5.48it/s]
+Predicting DataLoader 0:  82%|████████▏ | 164/199 [00:30<00:06,  5.46it/s]
+Predicting DataLoader 0:  83%|████████▎ | 165/199 [00:30<00:06,  5.43it/s]
+Predicting DataLoader 0:  83%|████████▎ | 166/199 [00:30<00:06,  5.41it/s]
+Predicting DataLoader 0:  84%|████████▍ | 167/199 [00:30<00:05,  5.39it/s]
+Predicting DataLoader 0:  84%|████████▍ | 168/199 [00:31<00:05,  5.37it/s]
+Predicting DataLoader 0:  85%|████████▍ | 169/199 [00:31<00:05,  5.35it/s]
+Predicting DataLoader 0:  85%|████████▌ | 170/199 [00:31<00:05,  5.33it/s]
+Predicting DataLoader 0:  86%|████████▌ | 171/199 [00:32<00:05,  5.30it/s]
+Predicting DataLoader 0:  86%|████████▋ | 172/199 [00:32<00:05,  5.28it/s]
+Predicting DataLoader 0:  87%|████████▋ | 173/199 [00:32<00:04,  5.25it/s]
+Predicting DataLoader 0:  87%|████████▋ | 174/199 [00:33<00:04,  5.23it/s]
+Predicting DataLoader 0:  88%|████████▊ | 175/199 [00:33<00:04,  5.20it/s]
+Predicting DataLoader 0:  88%|████████▊ | 176/199 [00:33<00:04,  5.18it/s]
+Predicting DataLoader 0:  89%|████████▉ | 177/199 [00:34<00:04,  5.16it/s]
+Predicting DataLoader 0:  89%|████████▉ | 178/199 [00:34<00:04,  5.13it/s]
+Predicting DataLoader 0:  90%|████████▉ | 179/199 [00:35<00:03,  5.10it/s]
+Predicting DataLoader 0:  90%|█████████ | 180/199 [00:35<00:03,  5.08it/s]
+Predicting DataLoader 0:  91%|█████████ | 181/199 [00:35<00:03,  5.05it/s]
+Predicting DataLoader 0:  91%|█████████▏| 182/199 [00:36<00:03,  5.02it/s]
+Predicting DataLoader 0:  92%|█████████▏| 183/199 [00:36<00:03,  5.00it/s]
+Predicting DataLoader 0:  92%|█████████▏| 184/199 [00:37<00:03,  4.97it/s]
+Predicting DataLoader 0:  93%|█████████▎| 185/199 [00:37<00:02,  4.95it/s]
+Predicting DataLoader 0:  93%|█████████▎| 186/199 [00:37<00:02,  4.92it/s]
+Predicting DataLoader 0:  94%|█████████▍| 187/199 [00:38<00:02,  4.89it/s]
+Predicting DataLoader 0:  94%|█████████▍| 188/199 [00:38<00:02,  4.86it/s]
+Predicting DataLoader 0:  95%|█████████▍| 189/199 [00:39<00:02,  4.83it/s]
+Predicting DataLoader 0:  95%|█████████▌| 190/199 [00:39<00:01,  4.80it/s]
+Predicting DataLoader 0:  96%|█████████▌| 191/199 [00:39<00:01,  4.78it/s]
+Predicting DataLoader 0:  96%|█████████▋| 192/199 [00:40<00:01,  4.75it/s]
+Predicting DataLoader 0:  97%|█████████▋| 193/199 [00:40<00:01,  4.71it/s]
+Predicting DataLoader 0:  97%|█████████▋| 194/199 [00:41<00:01,  4.68it/s]
+Predicting DataLoader 0:  98%|█████████▊| 195/199 [00:41<00:00,  4.65it/s]
+Predicting DataLoader 0:  98%|█████████▊| 196/199 [00:42<00:00,  4.61it/s]
+Predicting DataLoader 0:  99%|█████████▉| 197/199 [00:43<00:00,  4.57it/s]
+Predicting DataLoader 0:  99%|█████████▉| 198/199 [00:43<00:00,  4.52it/s]
+Predicting DataLoader 0: 100%|██████████| 199/199 [00:44<00:00,  4.48it/s]
+Predicting DataLoader 0: 100%|██████████| 199/199 [00:44<00:00,  4.46it/s]
+BLEU: 0.35958223452888516
+CHRF: 57.94360467062425
+BERTScore F1: 0.9361435106872473
+COMET: 0.8632319133423353
+BLEURT: 0.7231802435915781

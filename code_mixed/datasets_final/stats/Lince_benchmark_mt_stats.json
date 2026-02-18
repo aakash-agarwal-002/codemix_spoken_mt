@@ -1,0 +1,58 @@
+{
+    "train": {
+        "english": {
+            "num_sentences": 8060,
+            "total_words": 87603,
+            "word_mean": 10.868858560794045,
+            "word_std": 10.078503174605883,
+            "word_min": 1,
+            "word_max": 247,
+            "char_mean": 56.150124069478906,
+            "char_std": 56.12758457839562
+        },
+        "hinglish": {
+            "num_sentences": 8060,
+            "total_words": 93025,
+            "word_mean": 11.541563275434243,
+            "word_std": 11.022158351583677,
+            "word_min": 1,
+            "word_max": 341,
+            "char_mean": 61.06029776674938,
+            "char_std": 60.13179558774313
+        }
+    },
+    "validation": {
+        "english": {
+            "num_sentences": 942,
+            "total_words": 10930,
+            "word_mean": 11.602972399150744,
+            "word_std": 8.729693554258086,
+            "word_min": 1,
+            "word_max": 65,
+            "char_mean": 59.18789808917197,
+            "char_std": 45.79797024538132
+        },
+        "hinglish": {
+            "num_sentences": 942,
+            "total_words": 11465,
+            "word_mean": 12.170912951167729,
+            "word_std": 9.089288334966563,
+            "word_min": 1,
+            "word_max": 66,
+            "char_mean": 63.611464968152866,
+            "char_std": 48.30175184826975
+        }
+    },
+    "test": {
+        "english": {
+            "num_sentences": 960,
+            "total_words": 11108,
+            "word_mean": 11.570833333333333,
+            "word_std": 10.800327123389469,
+            "word_min": 1,
+            "word_max": 142,
+            "char_mean": 60.075,
+            "char_std": 59.93477878772335
+        }
+    }
+}

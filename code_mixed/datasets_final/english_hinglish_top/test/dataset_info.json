@@ -1,0 +1,62 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "english-hinglish-top",
+  "dataset_size": 59065619,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/rvv-karma/English-Hinglish-TOP@5ab10562888b4dd9735e434496f7e6112859329d/data/train-00000-of-00001.parquet": {
+      "num_bytes": 25353359,
+      "checksum": null
+    },
+    "hf://datasets/rvv-karma/English-Hinglish-TOP@5ab10562888b4dd9735e434496f7e6112859329d/data/val-00000-of-00001.parquet": {
+      "num_bytes": 194155,
+      "checksum": null
+    },
+    "hf://datasets/rvv-karma/English-Hinglish-TOP@5ab10562888b4dd9735e434496f7e6112859329d/data/test-00000-of-00001.parquet": {
+      "num_bytes": 942715,
+      "checksum": null
+    }
+  },
+  "download_size": 26490229,
+  "features": {
+    "english": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hinglish": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 85555848,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 56585917,
+      "num_examples": 176596,
+      "dataset_name": "english-hinglish-top"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 423297,
+      "num_examples": 1390,
+      "dataset_name": "english-hinglish-top"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2056405,
+      "num_examples": 6513,
+      "dataset_name": "english-hinglish-top"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

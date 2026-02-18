@@ -1,0 +1,52 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "lince_benchmark_mt_enghinglish_train_valid",
+  "dataset_size": 1133637,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Huggmachas/Lince_benchmark_mt_enghinglish_train_valid@eec5841d0c47cd1d4d397e1ca4090b422d14e957/data/dev-00000-of-00001.parquet": {
+      "num_bytes": 74801,
+      "checksum": null
+    },
+    "hf://datasets/Huggmachas/Lince_benchmark_mt_enghinglish_train_valid@eec5841d0c47cd1d4d397e1ca4090b422d14e957/data/train-00000-of-00001.parquet": {
+      "num_bytes": 671832,
+      "checksum": null
+    }
+  },
+  "download_size": 746633,
+  "features": {
+    "english": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hinglish": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1880270,
+  "splits": {
+    "dev": {
+      "name": "dev",
+      "num_bytes": 123355,
+      "num_examples": 942,
+      "dataset_name": "lince_benchmark_mt_enghinglish_train_valid"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 1010282,
+      "num_examples": 8060,
+      "dataset_name": "lince_benchmark_mt_enghinglish_train_valid"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

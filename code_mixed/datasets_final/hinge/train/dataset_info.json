@@ -1,0 +1,42 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "hin_ge",
+  "dataset_size": 1657920,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/LingoIITGN/HinGE@e25a10382d9adb77f3a4f03b721fbd0a43c0de4c/HinGE.csv": {
+      "num_bytes": 1591630,
+      "checksum": null
+    }
+  },
+  "download_size": 1591630,
+  "features": {
+    "english": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hinglish": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3249550,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1657920,
+      "num_examples": 1976,
+      "dataset_name": "hin_ge"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
