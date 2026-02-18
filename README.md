@@ -2,7 +2,13 @@
 
 A comprehensive project for fine-tuning transformer-based models to perform neural machine translation on **code-mixed text** (English-Hinglish) and **spoken language transcripts** (English-Hindi), with emphasis on handling Indian language scripts and transliteration.
 
-## 📋 Table of Contents
+## Project Report
+
+You can find the detailed project report here:
+
+[Download Project Report (PDF)](ai4bharat_assignment.pdf)
+
+## Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
