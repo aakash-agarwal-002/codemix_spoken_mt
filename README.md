@@ -98,15 +98,10 @@ codemix_spoken_mt/
 
 ### Code-Mixed Datasets
 
-The project uses multiple code-mixed datasets:
-
 | Dataset | Source | Task | Split |
 |---------|--------|------|-------|
 | **PHINC** | LingoIITGN | EN↔Hinglish | train/val/test |
-| **Lince_benchmark_mt** | Lince Benchmark | Code-mixed MT | train/val/test |
-| **English_Hinglish_Top** | - | EN↔Hinglish | train/val/test |
-| **CoMi_Lingua** | - | Code-mixed | train/val/test |
-| **HINGE** | - | Hindi-English | train/val/test |
+
 
 **Key Features:**
 - Transliteration support (Hindi script ↔ Latin script for Hinglish)
