@@ -61,6 +61,7 @@ codemix_spoken_mt/
 │   ├── plots/                          # Training metrics visualizations
 │   ├── dataset_utils.py                # Dataset preprocessing utilities
 │   ├── dataset_stat.py                 # Dataset statistics computation
+│   ├── data.ipynb                      # Download and Explore datasets
 │   └── plots.py                        # Visualization of training metrics
 │
 ├── spoken/                             # Spoken language translation task
@@ -82,6 +83,7 @@ codemix_spoken_mt/
 │   ├── outputs/                        # Evaluation results (CSV)
 │   ├── outputs_clean/                  # Cleaned evaluation results
 │   ├── plots/                          # Training metrics visualizations
+│   ├── data.ipynb                      # Download and Explore datasets
 │   ├── dataset_utils.py                # Dataset preprocessing utilities
 │   ├── dataset_stat.py                 # Dataset statistics computation
 │   ├── plots.py                        # Visualization of training metrics
@@ -171,8 +173,8 @@ python train_eng_hinglish.py \
     --data_dir ../datasets/PHINC \
     --output_dir ../models/phinc_finetuned_eng_hinglish \
     --batch_size 8 \
-    --num_train_epochs 3 \
-    --learning_rate 3e-4
+    --num_train_epochs 20 \
+    --learning_rate 5e-5
 ```
 
 Or use the provided shell script:
@@ -190,8 +192,8 @@ python train_hinglish_eng.py \
     --data_dir ../datasets/PHINC \
     --output_dir ../models/phinc_finetuned_hinglish_eng \
     --batch_size 8 \
-    --num_train_epochs 3 \
-    --learning_rate 3e-4
+    --num_train_epochs 10 \
+    --learning_rate 5e-5
 ```
 
 #### Spoken Language Translation (English → Hindi)
@@ -204,7 +206,7 @@ python train_eng_hindi.py \
     --output_dir ../models/TED2020_finetuned_eng_hindi \
     --batch_size 8 \
     --num_train_epochs 3 \
-    --learning_rate 3e-4
+    --learning_rate 5e-5
 ```
 
 #### Spoken Language Translation (Hindi → English)
@@ -217,7 +219,7 @@ python train_hindi_eng.py \
     --output_dir ../models/TED2020_finetuned_hindi_eng \
     --batch_size 8 \
     --num_train_epochs 3 \
-    --learning_rate 3e-4
+    --learning_rate 5e-5
 ```
 
 ### Evaluation & Translation
@@ -307,7 +309,7 @@ Target Modules:
 | Parameter | Value |
 |-----------|-------|
 | Batch Size | 8 |
-| Learning Rate | 3e-4 |
+| Learning Rate | 5e-5 |
 | Weight Decay | 0.01 |
 | Epochs | 3 |
 | Warmup Ratio | 0.0 |
@@ -397,39 +399,11 @@ Results tracked in:
 
 ---
 
-## Important Notes
-
-### GPU Requirements
-- Fine-tuning: Recommended 24GB+ GPU memory (e.g., A100, RTX 3090)
-- Inference: 8GB+ GPU memory sufficient for most cases
-- CPU-only inference possible but significantly slower
-
-### Transliteration
-- XlitEngine uses CPU-based beam search (forced via `CUDA_VISIBLE_DEVICES=""`)
-- Multiprocessing-friendly for parallel transliteration
-- Beam width set to 5 for accuracy-speed trade-off
-
-### HuggingFace Cache
-- Set via `HF_HOME` environment variable
-- Offline mode enabled for reproducibility
-- Pre-download models before offline usage
-
-### File Paths
-- Training scripts expect relative paths from their directories
-- Absolute paths recommended for production use
-- Update `dataset_path` mapping in shell scripts as needed
-
----
-
 ## Environment Variables
 
 ```bash
 # Set HuggingFace cache directory
 export HF_HOME="/path/to/huggingface/cache"
-
-# For offline mode (recommended)
-export TRANSFORMERS_OFFLINE=1
-export HF_HUB_OFFLINE=1
 
 # GPU selection (if multiple GPUs available)
 export CUDA_VISIBLE_DEVICES=0
@@ -450,7 +424,7 @@ python -c "from transformers import AutoModel; AutoModel.from_pretrained('ai4bha
 ```
 
 ### Out of Memory (OOM)
-- Reduce `batch_size` (default: 8 → try 4 or 2)
+- Reduce `batch_size` (default: 64 → try 32 or 16)
 - Enable gradient accumulation: `--grad_accum_steps 2`
 - Use mixed precision: Add `--fp16` flag
 
@@ -461,21 +435,9 @@ python -c "from transformers import AutoModel; AutoModel.from_pretrained('ai4bha
 
 ---
 
-## Citation & References
-
-If you use this project, please cite:
-
-```bibtex
-@misc{codemix_spoken_mt,
-  title={Code-Mixed and Spoken Language Machine Translation},
-  author={Your Name},
-  year={2024}
-}
-```
-
 ### Related Work
 
-- [IndicTrans2](https://ai4bharat.iitm.ac.in/indictrans2/) - Base models
+- [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2/tree/main) - Base models
 - [PEFT Library](https://huggingface.co/docs/peft/) - LoRA implementation
 - [Transformers](https://huggingface.co/transformers/) - Model architecture
 - [Datasets](https://huggingface.co/datasets/) - Data handling
@@ -493,7 +455,5 @@ For issues or questions:
 ---
 
 ## License
-
-[Add your license here]
 
 Last Updated: February 2026
